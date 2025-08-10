@@ -47,7 +47,7 @@ const Expenses = ({ participants, expenseForm, setExpenseForm, addExpense, expen
         </div>
         <button
           onClick={addExpense}
-          className="w-full bg-gradient-to-r from-white to-gray-100 text-black py-3 rounded-xl font-medium hover:scale-105 transition-transform flex items-center justify-center gap-2"
+          className="w-full bg-gradient-to-r from-white to-gray-100 text-black py-3 rounded-xl font-medium hover:scale-102 transition-transform flex items-center justify-center gap-2"
         >
           <Plus size={20} />
           Add Expense

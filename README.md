@@ -1,4 +1,4 @@
-# ExpenseSplitter [🔗](https://expensesplitter.vercel.app)
+# ExpenseSplitter [Live🔗](https://expensesplitter.vercel.app)
 
 
 ExpenseSplitter is a lightweight React application designed to simplify expense splitting among groups. Users can add participants, track expenses, and view optimized settlement suggestions to determine who owes what. The app features a responsive UI with a mobile-friendly sidebar and tab bar, built with React, Tailwind CSS, and Lucide icons.
