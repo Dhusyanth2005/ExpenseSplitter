@@ -7,8 +7,8 @@ const DesktopNav = ({ activeTab, setActiveTab, menuItems }) => (
         <div className="bg-gray-900/90 backdrop-blur-xl border border-white/30 rounded-2xl px-6 py-4 shadow-2xl">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold">
-              <span className="text-white">Split</span>
-              <span className="text-gray-300 ml-1">Wise</span>
+              <span className="text-white">Expense</span>
+              <span className="text-gray-300 ml-1">Splitter</span>
             </div>
             <div className="flex space-x-6">
               {menuItems.map((item) => (

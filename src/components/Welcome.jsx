@@ -6,7 +6,7 @@ const Welcome = () => (
         <Calculator size={40} className="text-white" />
       </div>
       <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-white via-gray-100 to-gray-200 bg-clip-text text-transparent">
-        Welcome to SplitWise
+        Welcome to Expense Splitter
       </h2>
       <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
         Effortlessly split expenses among friends, family, or colleagues. Add participants, track expenses, and let us calculate who owes what with optimal settlement suggestions.

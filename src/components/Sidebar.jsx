@@ -13,9 +13,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, activeTab, setActiveTab, menuIte
         <div className="flex justify-between items-center mb-8">
           <div className="text-xl font-bold">
             <span className="bg-gradient-to-r from-white via-gray-200 to-gray-300 bg-clip-text text-transparent">
-              Split
+                Expense
             </span>
-            <span className="text-gray-400 ml-1">Wise</span>
+            <span className="text-gray-400 ml-1">Splitter</span>
           </div>
           <button
             onClick={() => setSidebarOpen(false)}
