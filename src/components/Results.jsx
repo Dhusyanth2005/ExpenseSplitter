@@ -1,4 +1,4 @@
-import { DollarSign, Users, Calculator, User, ArrowRight, RefreshCw, PieChart, ArrowDown } from 'lucide-react';
+import { Users, Calculator, User, ArrowRight, RefreshCw, PieChart, ArrowDown,Wallet } from 'lucide-react';
 
 const Results = ({ expenses, participants, clearAllData, formatCurrency, calculateBalances, optimizeTransactions, getParticipantName }) => {
   if (expenses.length === 0) {
@@ -38,7 +38,7 @@ const Results = ({ expenses, participants, clearAllData, formatCurrency, calcula
       {/* Stats cards - responsive grid */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="bg-gradient-to-br from-gray-800/30 via-gray-900/30 to-black/30 backdrop-blur-md border border-gray-700/30 rounded-xl p-4 sm:p-6 text-center">
-          <DollarSign size={24} className="mx-auto mb-2 text-gray-400" />
+          <Wallet size={24} className="mx-auto mb-2 text-gray-400" />
           <div className="bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent text-xl sm:text-2xl font-bold">
             {formatCurrency(totalAmount)}
           </div>

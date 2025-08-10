@@ -191,12 +191,11 @@ const ExpenseSplitter = () => {
   };
 
   const formatCurrency = (amount) => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD',
-    }).format(amount);
-  };
-
+  return new Intl.NumberFormat('en-IN', {
+    style: 'currency',
+    currency: 'INR',
+  }).format(amount);
+};
   const menuItems = [
     { id: 'home', icon: Home, label: 'Home' },
     { id: 'participants', icon: Users, label: 'Participants' },
